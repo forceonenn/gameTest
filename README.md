@@ -10,9 +10,9 @@ I've used this libraries:
 ### What have I have done
 I implemented everything that has been presented in the task description, 
 including all optional requirements.
-You can find two json configurations here:
+You can find several json configurations here:
 1. config.json - the original file from task description. By the way there is a mistyping in "same_symbols_horizontally" combination. You can find two "1:1" strings, but one of them should be "1:2". Of course the program had to work successfully following this map, but the result hasn't been logical in this case. I've fixed it in my project, I hope it will help you also in the future.
-2. config4x4.json - just for making sure that the program works successfully with another configs. All the neccessary lines (such as symbols probabilities, covered areas for new zones, etc.) are added there. I didn't make a check if all the parameters are presented in the json file for required matrix. You know, it's not difficult to do, but I believe, it's out of this task.
+2. config4x4.json - just for making sure that the program works successfully with another configs. All the neccessary lines (such as symbols probabilities, covered areas for new zones, etc.) are added there. I didn't implement a check if all the parameters are presented in the json file for required matrix. You know, it's not difficult to do, but I believe, it's out of this task.
 3. configTest.json - just for passing a unit tests. Just a copy of config.json at the moment.
 
 ### About what I didn't find in the task description
